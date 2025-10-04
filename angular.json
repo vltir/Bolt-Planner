@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bolt-vis": {
+    "Bolt-Planner": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bolt-vis:build:production"
+              "buildTarget": "Bolt-Planner:build:production"
             },
             "development": {
-              "buildTarget": "bolt-vis:build:development"
+              "buildTarget": "Bolt-Planner:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
