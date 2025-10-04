@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  padding: 12px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.selected {
+  font-weight: 600;
+}
+
+.svg-wrap {
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+/* Cursor für klickbare Knoten */
+g.node { cursor: pointer; }
+g.node:hover circle { stroke-width: 3; }
